@@ -1,0 +1,78 @@
+.philosophy__text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #7C6E6E;  
+
+  width: 980px;
+  margin-bottom: 70px;
+}
+
+
+/*  */
+
+.philosophy{
+  margin-bottom: 139px;
+}
+
+.philosophys__photo-size{
+  width: 400px;
+  height: 400px;
+}
+
+.philosophy-two{
+  width: 657px;
+  margin-right: 0;
+}
+
+.philosophy__title-two{
+  width: 657px;
+  margin-right: 0;
+}
+
+.tours__tour{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 108px ;
+
+  align-items: center;
+
+  margin-bottom: 77px;
+}
+
+.tour__title{
+  /* font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;  
+  
+  width: 475px;
+
+  margin-bottom: 75px; */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 35px;
+
+  color: #4e4444d0;
+}
+
+.tour__description{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+
+  color: #7C6E6E;
+  margin-bottom: 40px;
+
+  /* width: 519px; */
+}

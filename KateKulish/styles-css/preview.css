@@ -1,0 +1,32 @@
+.preview{
+  background: url(../preview-photo/bg.png) center no-repeat;
+  /* background-size: cover; */
+  height: 1100px;
+  /* margin-bottom: 90px; */
+}
+
+.preview__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  text-transform: uppercase;
+  
+  color: #e8e8e8;
+}
+
+@media screen and (max-width: 780px){
+
+  .preview{
+    height: 815px;
+  }
+
+  .preview__title{
+    font-size: 160px;
+    line-height: 180px;
+
+    max-width: 750px;
+    padding-top: 90px;
+  }
+
+}

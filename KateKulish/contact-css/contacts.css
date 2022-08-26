@@ -1,0 +1,73 @@
+.section{
+  background: url(..//contact-photo/banner.png) center no-repeat;
+
+  height: 300px;
+}
+
+.contact__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100px;
+
+  text-transform: uppercase;
+  color: #e8e8e8;
+
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  margin: 0;
+}
+
+/* CONTACT LIST */
+
+.contact{
+  margin: 70px auto;
+}
+
+.contact__list{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contact__item{
+  background: #C5C5C5;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two__block{
+  background: #ffffff;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exsclusive__block{
+  border: 20px solid #ffffff;
+  background: #f439b9;
+}
+
+.block__photo{
+  height: 35px;
+  width: 35px;
+}
+
+.link__photo:hover{
+  opacity: 0.8;
+}

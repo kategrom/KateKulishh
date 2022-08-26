@@ -1,0 +1,98 @@
+
+/* SECTION PREVIEW */
+
+.preview{
+  background: url(../faq-photo/banner.png) center no-repeat;
+  height: 310px;
+
+  margin-bottom: 60px;
+}
+
+.preview__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  /* line-height: 100px; */
+
+  text-transform: uppercase;
+  color: #e8e8e8;
+
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  margin: 0;
+
+  text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
+}
+
+
+/* SECTION OF NFT  */
+
+.nft{
+  margin-bottom: 40px;
+}
+
+.nft__description{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  width: 850px;
+  
+  color: #535353;
+
+  margin-bottom: 30px;
+}
+
+.nft__list{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+.nft__link{
+  display: block;
+  width: 170px;
+  height: 170px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.nft__link-photo{
+  width: 120px;
+  height: 120px;
+  
+  padding-top: 15%;
+
+  display: block;
+  margin: auto;
+}
+
+.nft__item{
+  position: relative;
+}
+
+.nft__subLink{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #4137D0;
+  background-color: #fff;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: -10%;
+  right: 40%;
+}
+
+.nft__subLink:hover{
+  border: 3px solid #4137d0aa;
+}
+
+.subline__photo{
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}

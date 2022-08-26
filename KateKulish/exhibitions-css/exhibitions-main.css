@@ -1,0 +1,129 @@
+
+/* PREVIEW */
+
+.preview{
+  background: url(../exhibitions-photo/preview-photo.png) center no-repeat;
+  height: 320px;
+
+  margin-bottom: 50px;
+}
+
+.preview__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100px;
+
+  text-transform: uppercase;
+  color: #f7f7f7;
+
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  margin: 0;
+}
+
+
+/* GRID */
+
+.tour__pictures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour__photo-size{
+ height: 400px;
+ width: 400px;
+}
+
+/* .tour__photo-size-two{
+  padding-left: 700px;
+} */
+
+.tour-two{
+  width: 519px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.tour__title-two{
+  width: 340px;
+  margin-right: 0;
+}
+
+.tours__tour{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 108px ;
+
+  align-items: center;
+
+  margin-bottom: 77px;
+}
+
+.tour__title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;  
+  color: #292929;
+  
+  width: 475px;
+
+  margin-bottom: 15px;
+}
+
+.text__opacity{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  
+  color: #C5C5C5;
+}
+
+.tour__description{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;  
+
+  width: 600px;
+  margin-bottom: 40px;
+  margin-left: 0;
+
+  /* width: 519px; */
+}
+
+.tour__more{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+  
+  color: #4137D0;
+}
+
+.tour__more:hover,
+.tour__more:focus{
+  opacity: .65;
+}
+
+
+/* TWO BACKGROUND */
+
+.bg__preview{
+  background: url(../exhibitions-photo/bg.png) center no-repeat;
+  height: 962px;
+
+  margin-bottom: 50px;
+}

@@ -1,0 +1,140 @@
+/* SECTION PREVIEW */
+
+.preview{
+  background: url(../bio-photo/banner.png) center no-repeat;
+  height: 300px;
+
+  margin-bottom: 70px;
+}
+
+.preview__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100px;
+
+  text-transform: uppercase;
+  color: #e8e8e8;
+
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  margin: 0;
+
+  text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
+}
+
+
+/* SECTION FRIEND */
+
+.friend__title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 35px;
+ 
+  color: #292929;
+
+  margin-bottom: 35px;
+}
+
+.friend__title span{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 35px;
+}
+
+.friend__text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #535353;
+
+  width: 1000px;
+
+  margin-bottom: 15px;
+}
+
+.bg__main{
+ background: url(../bio-photo/bg.png) center no-repeat;
+ height: 960px;
+
+ margin-bottom: 30px;
+}
+
+
+/* SECTION TOUR */
+
+.tour__pictures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour__photo-size{
+ height: 400px;
+ width: 400px;
+}
+
+/* .tour__photo-size-two{
+  padding-left: 700px;
+} */
+
+.tour-two{
+  width: 519px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.tour__title-two{
+  width: 340px;
+  margin-right: 0;
+}
+
+.tours__tour{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 108px ;
+
+  align-items: center;
+
+  margin-bottom: 77px;
+}
+
+.tour__title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 12px;
+  color: #797979;
+  
+  margin-bottom: 35px;
+
+  width: 650px;
+}
+
+
+.tour__description{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #535353;
+
+  width: 700px;
+  margin-bottom: 40px;
+  margin-left: 0;
+
+  /* width: 519px; */
+}
+

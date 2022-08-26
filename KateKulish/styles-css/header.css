@@ -1,0 +1,105 @@
+.header{
+  background-color: #272727;
+}
+
+.header__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 8px;
+}
+
+/* LOGO */
+
+.logo__text{
+  margin-right: 50px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 16px;
+ 
+  color: #FFFFFF;
+}
+
+/* NAV LIST */
+
+.nav{
+  margin-right: 50px;
+}
+
+.nav__list{
+  display: flex;
+  /* align-items: center; */
+  gap: 35px;
+}
+
+
+.menu__link{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+ 
+  color: #FFFFFF;
+}
+
+.menu__link:hover,
+.menu__link:focus{
+  opacity: 0.4;
+}
+
+
+
+/* SOCIALS */
+/* align-items: center; */
+
+.socials-list{
+  display: flex;
+}
+
+.socials-link-epic{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  /* border-radius: 50%; */
+
+  /* background-color: #FFFFFF; */
+}
+
+/* .socials-link-epic:hover,
+.socials-link-epic:focus,
+.socials-link-epic.active,
+{
+  path: #FFFFFF;
+} */
+
+.socials-link{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  background: rgba(225, 225, 225, 0.1);
+}
+.socials-link:hover{
+  background: #535557;
+}
+
+.socials-item{
+  margin-right: 10px; 
+}
+
+.socials-item:last-child{
+  margin-right: 0; 
+} 
+ 
+/* BURGER MENU */
+

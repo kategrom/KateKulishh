@@ -1,0 +1,27 @@
+
+/* PREVIEW SECTION */
+
+.preview{
+  background: url(../faq-photo/banner.png) center no-repeat;
+  height: 310px;
+
+  margin-bottom: 70px;
+}
+
+.preview__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  /* line-height: 100px; */
+
+  text-transform: uppercase;
+  color: #e8e8e8;
+
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  margin: 0;
+
+  text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
+}

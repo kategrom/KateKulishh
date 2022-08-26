@@ -1,0 +1,81 @@
+.section__title{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  
+  color: #272727;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.painting{
+  margin-bottom: 140px;
+}
+
+.slides__photo{
+  width: 1200px;
+  height: 800px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.painting__title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 14px;
+
+  text-align: center;
+  
+  color: #3D3D3D;
+}
+
+.line{
+  font-size: 25px;
+  text-align: center;
+  color: #3D3D3D;
+}
+
+.price{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;  
+  color: #3D3D3D;
+}
+
+.button{
+  display: block;
+  width: 150px;
+  height: 50px;
+  background: #4137D0;
+  margin: 0 auto;
+}
+
+.button:hover{
+  background: #4137d0b7;
+}
+
+.btn__buy{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
